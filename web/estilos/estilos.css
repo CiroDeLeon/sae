@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/01/2017, 07:39:17 PM
+    Author     : Usuario1
+*/
+body{
+    background-image: url("fondo01.jpg");
+}
+table{
+    width: 100%;
+}
+input,select{
+    color :blue;
+    background-color: white;
+}
+a{
+    border:2px solid #ccccff; 
+    background-color: white;
+}
+input[disabled]{
+    color: cornflowerblue;
+}
+#contenedor{
+    background-color: #d5d1ff;
+    border:2px solid #ccccff;    
+    float: left;
+    width: 100%;
+    alignment-adjust: central;
+    max-width: 350px;
+    min-width: 300px;
+    margin-left:10%;    
+    margin-top: 5%;
+}
+#cabecera{    
+    background-color: aliceblue;         
+    text-align: center;
+}
+
+#izquierda{    
+    background-color: white;        
+    text-align: center;
+    height: 100%;
+    width: 0%;
+    float: left;
+    min-width: 10px;
+}
+#derecha{
+    
+    text-align: center;
+    height: 100%;
+    width: 0%;
+    float: left;
+    min-width: 10px;
+}
+
+#contenido{    
+    background-color: blueviolet;
+    width: 100%;    
+    height: 50%;
+    float: left;   
+    max-width: 350px;
+    min-width: 300px;
+}
+
+#pie{
+    height: 20%;        
+    text-align: center;
+    clear: both;
+    background-color: beige;
+}
+.alineados{
+    text-align: center;
+    color: whitesmoke;
+}
+.jlabel{
+    margin-left: 0%;
+    color: #ffffff;
+}
+.jtextfield{    
+    width: 98%;    
+    height: 30px;
+}
+.menu{
+    margin-left: 32px;
+}
